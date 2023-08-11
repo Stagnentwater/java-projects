@@ -9,5 +9,19 @@ public class main{
     }
     System.out.println(reversed_word);
     }
+  //another half string method
+  StringBuilder A= new StringBuilder("hello");
+        //halfstringmethodtoreversestring
+        for(int i=0;i<=A.length()/2;i++){
+            int front=i;
+            int end=A.length()-1-i;
+
+            char frontchar=A.charAt(front);
+            char endchar=A.charAt(end);
+
+            A.setCharAt(front,endchar);
+            A.setCharAt(end,frontchar);
+        }
+        System.out.println(A);
   }
 }
