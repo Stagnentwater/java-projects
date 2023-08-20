@@ -1,2 +1,3 @@
 # java-projects
-projects i made while learning java
+code i wrote while learning java
+has some of the algorithms and also questions that i solved also some of them are part of a function
